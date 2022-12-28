@@ -22,7 +22,7 @@ display: flex;
 const StyledImageWrapper = styled.div`
     margin-bottom: 50px;`
 
-const login = () => {
+const Login = () => {
     const [signInWithGoogle, _user, _loading, _error] = useSignInWithGoogle(auth);
 
     const signIn = () => {
@@ -46,4 +46,4 @@ const login = () => {
   )
 }
 
-export default login
+export default Login
